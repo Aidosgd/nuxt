@@ -14,7 +14,11 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['~assets/scss/global.scss'],
+
+  styleResources: {
+    scss: './assets/scss/vars/*.scss',
+  },
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -27,6 +31,7 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
+    '@nuxtjs/style-resources',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -43,7 +48,7 @@ export default {
     loaders: {
       cssModules: {
         modules: {
-          localIdentName: '[local]--[Frida]_[hash:base64:4]',
+          localIdentName: '[local]--[hash:base64:4]',
         },
       },
     },

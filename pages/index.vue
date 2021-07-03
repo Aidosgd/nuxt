@@ -2,7 +2,11 @@
   <div class="container">
     <Logo />
 
+    <MainMessage />
+
     <Message />
+
+    <User />
 
     <div>
       {{ users.name }}
@@ -27,12 +31,3 @@ export default Vue.extend({
   },
 })
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  padding-top: 100px;
-  max-width: 500px;
-}
-</style>

@@ -1,0 +1,21 @@
+.header {
+  background: $bg-dark;
+  height: $uiPoint * 9px;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.left {
+  display: flex;
+}
+
+.logo {
+  background-image: url('https://kaspi.kz/reswp/img/header/_d-header.sprite.png');
+  height: $uiPoint * 5 - 1px;
+  width: $uiPoint * 5 - 2px;
+  background-position: -10px -183px;
+  display: block;
+}

@@ -9,8 +9,4 @@ export default {
 }
 </script>
 
-<style module lang="scss">
-.red {
-  color: red;
-}
-</style>
+<style module lang="scss" src="./styled.scss" />

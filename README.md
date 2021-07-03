@@ -17,4 +17,15 @@ $ yarn start
 $ yarn generate
 ```
 
+# Автоподключение компонентов
+
+## Структура папок
+
+asd asd asd as d
+asd as 
+as d
+as 
+d
+as 
+
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

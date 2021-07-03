@@ -2,7 +2,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   data() {
-    const message: string = 'string message'
+    const message: string = 'string user'
     return {
       message,
     }
